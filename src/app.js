@@ -6,7 +6,7 @@ const app = express();
 const PORT = 3000;
 
 //SETTING APP
-app.set('views', './views');
+app.set('src/views', './src/views');
 app.set('view engine', 'ejs')
 
 // ROUTER
